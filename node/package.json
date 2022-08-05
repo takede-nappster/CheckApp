@@ -1,0 +1,23 @@
+{
+  "name": "com.nappster.checkapp",
+  "version": "1.0.0",
+  "description": "Application to check creneau avail",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TAKEDE MADIGA Albert <tmanapster@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "node-cron": "^3.0.0"
+  }
+}
